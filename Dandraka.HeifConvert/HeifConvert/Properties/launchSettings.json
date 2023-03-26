@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HeifConvert": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\dimit\\Downloads"
+    }
+  }
+}

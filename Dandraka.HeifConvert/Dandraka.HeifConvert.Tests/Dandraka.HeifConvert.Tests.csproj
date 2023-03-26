@@ -30,4 +30,13 @@
     <Folder Include="images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="images\IMG_4051.heif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="images\IMG_4058.heic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
