@@ -20,11 +20,17 @@ No installation is needed. Just download the zip and unzip it in a folder of you
 
 ## Examples
 
+### Using Windows command line (cmd)
+
 - `cd C:\myphotos\ && C:\app\HeifConvert\HeifConvert.exe birthdayphoto.heic`
 - `C:\app\HeifConvert\HeifConvert.exe -png C:\myphotos\weddingphoto.heic`
 - `cd C:\myphotos\ && C:\app\HeifConvert\HeifConvert.exe Crete_holiday_2022_photos`
 - `C:\app\HeifConvert\HeifConvert.exe -tiff C:\myphotos\Crete_holiday_2022_photos`
 - `C:\app\HeifConvert\HeifConvert.exe -png "C:\myphotos\Holidays in Rethymno photos"`
+
+### Using Powershell
+
+**TODO**
 
 ## Credits
 
