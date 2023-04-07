@@ -2,7 +2,7 @@
 
 ## Introduction
 
-HeifConvert is a WIndows command line utility that converts images HEIF/HEIC images to other formats such as Jpeg and Png. HEIF/HEIC images use the [High Efficiency Image File Format](https://www.iso.org/standard/66067.html) which is adopted by Apple and used by default in most iOS devices. The main use case for this utility is to convert photos taken from an iPhone or an iPad to Jpeg, so that they can be used in non-iOS applications such as websites, tools etc. 
+HeifConvert is a WIndows command line utility that converts HEIF/HEIC images to other formats such as Jpeg and Png. HEIF/HEIC images use the [High Efficiency Image File Format](https://www.iso.org/standard/66067.html) which is adopted by Apple and used by default in most iOS devices. The main use case for this utility is to convert photos taken from an iPhone or an iPad to Jpeg, so that they can be used in non-iOS applications such as websites, tools etc. 
 
 My personal driver to write this utility is the family yearly calendar. See, every year I use an online service -there are many- where I can upload family pictures and get a calendar printed. I order multiple copies, for us, for our parents to see their grandchildren, for our siblings to see their nieces etc. But the constant problem is that these services only support Jpeg, Png and maybe Tiff image files.
 
