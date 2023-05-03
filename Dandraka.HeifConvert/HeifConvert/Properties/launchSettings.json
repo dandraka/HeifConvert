@@ -2,7 +2,7 @@
   "profiles": {
     "HeifConvert": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\dimit\\Downloads"
+      "commandLineArgs": "-p \"C:\\Users\\dimit\\Downloads\\IMG_3468.heif\""
     }
   }
 }
