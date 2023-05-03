@@ -17,6 +17,7 @@ void getCommandlineArgs(string[] a)
         .WithDescription("Supported output types: " + string.Join(',', Enum.GetNames(typeof(ImageType))))
         .Callback(x => imgType = x)
         .SetDefault(ImageType.jpg);
+    // todo
     //p.SetupHelp()
 
     p.Parse(a);
