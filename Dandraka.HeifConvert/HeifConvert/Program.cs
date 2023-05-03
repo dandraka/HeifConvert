@@ -9,11 +9,11 @@ getCommandlineArgs(args);
 void getCommandlineArgs(string[] a)
 {
     var p = new FluentCommandLineParser();
-    p.Setup<string>('p', "Path")
+    p.Setup<string>('p', "path")
         .WithDescription("Path to a HEIF/HEIC file or directory containing HEIF/HEIC files.")
         .Callback(x => path = x)
         .Required();
-    p.Setup<ImageType>('o', "OutputType")
+    p.Setup<ImageType>('o', "outputtype")
         .WithDescription("Supported output types: " + string.Join(',', Enum.GetNames(typeof(ImageType))))
         .Callback(x => imgType = x)
         .SetDefault(ImageType.jpg);

@@ -12,21 +12,18 @@ No installation is needed. Just download the zip and unzip it in a folder of you
 
 ## Usage
 
-`HeifConvert.exe [-format] path`
+`HeifConvert.exe [-o output type] -p path`
 
-- `format` is optional. If omitted, Jpeg is used. Examples are -jpeg, -png, -tiff, -bmp. The parameters is case-insensitive.
+- `-o` or `-outputtype` is optional. If omitted, Jpeg is used. Examples are -o jpeg, -o png, -o tiff.
 
-- `path` is a absolute or relative (to the current dir) path to a file or directory. If the path is a single file, it is converted as specified by the `format` parameter. If the path is a directory, all files found by the filter \*.heic|\*.heif are converted. In both cases, the filename is kept the same except for the extension. **_Any prexisting files are overwritten_**.
+- `-p` or `-path` is an absolute path to a file or directory. If the path is a single file, it is converted as specified by the `-o` parameter. If the path is a directory, all *.heic and *.heif files are converted. In both cases, the filename is kept the same except for the extension. **_Any prexisting files are overwritten_**.
 
 ## Examples
 
 ### Using Windows command line (cmd)
 
-- `cd C:\myphotos\ && C:\app\HeifConvert\HeifConvert.exe birthdayphoto.heic`
-- `C:\app\HeifConvert\HeifConvert.exe -png C:\myphotos\weddingphoto.heic`
-- `cd C:\myphotos\ && C:\app\HeifConvert\HeifConvert.exe Crete_holiday_2022_photos`
-- `C:\app\HeifConvert\HeifConvert.exe -tiff C:\myphotos\Crete_holiday_2022_photos`
-- `C:\app\HeifConvert\HeifConvert.exe -png "C:\myphotos\Holidays in Rethymno photos"`
+- `C:\app\HeifConvert\HeifConvert.exe -p C:\myphotos\weddingphoto.heic`
+- `C:\app\HeifConvert\HeifConvert.exe -o png -p "C:\myphotos\Holidays in Rethymno photos"`
 
 ### Using Powershell
 
