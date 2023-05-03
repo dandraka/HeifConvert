@@ -2,10 +2,22 @@ name: Build and test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
+    paths-ignore:
+      - '**/*.yml'
+      - '**/.gitignore'
+      - '**/*.md'
+      - '**/*.heif'
+      - '**/*.heic'
   pull_request:
-    branches: [ master ]
-
+    branches: [ main ]
+    paths-ignore:
+      - '**/*.yml'
+      - '**/.gitignore'
+      - '**/*.md'
+      - '**/*.heif'
+      - '**/*.heic'
+      
 jobs:
   build:
 
